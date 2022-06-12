@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {background: #fafafa}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    border: 2px solid silver;
+    border-radius: 20px;
+    text-align: center
+}
+
+.container h2 {margin-bottom: 15px}
+
+#task-form input {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #fafafa;
+    text-align: center;
+}
+
+#add,
+#show {
+    border-radius: 5px;
+    border: 0;
+    background: #e06149;
+    padding: 10px 20px;
+    /* margin-bottom: 15px; */
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 400ms ease;
+}
+
+#add:hover,
+#show:hover {background: #333}
+
+.task-set #task-added {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 15px auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background: #fafafa;
+    font-size: 17px;
+    display: none;
+}
+
+p.mess {margin: 15px auto}
